@@ -8,6 +8,7 @@ jobs:
       - run: |
           pwd 
           ls -alF
+
   my_second_job:
     runs-on: ubuntu-latest
     steps:      
@@ -15,4 +16,4 @@ jobs:
       - run: |
           sudo apt-get update 
           sudo apt-get install tree 
-        tree -F .     
+          tree -F .
